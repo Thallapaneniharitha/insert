@@ -1,0 +1,18 @@
+mysql> insert into employee values(234,'hari','98667');
+Query OK, 1 row affected (0.07 sec)
+mysql> insert into employee values(105,'teja','723456');
+Query OK, 1 row affected (0.10 sec)
+mysql> insert into employee values(106,'sari','234567');
+Query OK, 1 row affected (0.10 sec)
+mysql> insert into employee values(107,'raji','7653456');
+Query OK, 1 row affected (0.10 sec)
+mysql> select * from employee;
++--------+----------+-----------+
+| emp_id | emp_name | emp_ph_no |
++--------+----------+-----------+
+|    234 | hari     | 98667     |
+|    105 | teja     | 723456    |
+|    106 | sari     | 234567    |
+|    107 | raji     | 7653456   |
++--------+----------+-----------+
+4 rows in set (0.00 sec)
